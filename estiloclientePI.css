@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&display=swap');
+
+*{ 
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url("https://dicasenoticiasparamulheres.com/wp-content/uploads/2019/02/Vagas-de-emprego-TI-%E2%80%93-saiba-onde-est%C3%A3o-as-vagas-abertas-no-Brasil.png");
+    position: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+fieldset{
+    border-color:rgb(57, 59, 185) ;
+    
+}
+
+legend{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.menu{
+    overflow: hidden;
+    background-color:rgb(49, 49, 49);
+    margin-bottom: 10px;
+   
+}
+
+.menu a{
+    float: left;
+    text-align: center;
+    padding: 10px;
+    
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+
+.menu a.active {
+    background-color: rgb(12, 49, 73) ;
+    color: white;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    background-color: rgb(248, 236, 130);
+    color: black;
+    font-weight: bold;
+}
+
+.formulario{
+    background-color: rgb(190, 228, 253);
+    color: rgb(5, 5, 78);
+    font-weight: bold;
+    margin-bottom:  10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.form-manager{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-manager label{
+    flex: none;
+    font-size: 11px;
+    display: block;
+    width: 100px;
+    
+}
+
+.form-manager label.right-inline{
+    text-align: right;
+    padding-right: 8px;
+    padding-left: 10px;
+    width: auto;
+    text-align: center;
+
+}
+
+.form-manager input.input-manager{
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    border-color:rgb(5, 5, 78) ;
+    padding: 2px;
+}
+
+.form-manager textarea.input-manager{
+    border-color:rgb(5, 5, 78);
+    width: 35%;
+    height: 100px;
+}
+
+.form-manager input.input-manager:hover{
+    background-color: rgb(248, 236, 130);
+    
+}
+
+.form-manager button{
+    background-color: #16648d;
+    color: #ddd;
+    margin-right: 8px;
+    margin-top: 8px;
+    font-weight: bold;
+    border-color:rgb(5, 5, 78);
+    padding: 5px;
+    cursor: pointer;
+}
+button.apagar{
+    font-weight: bold;
+    padding: 3px;
+    cursor: pointer;
+    border: 2px solid black;
+    font-size: 11px;
+}
+
+button.editar{
+  font-weight: bold;
+  padding: 3px;
+  cursor: pointer;
+  border: 2px solid black;
+  font-size: 11px;
+}
+
+button.apagar:hover{
+    background-color: rgb(248, 236, 130);
+}
+
+button.editar:hover{
+    background-color: rgb(248, 236, 130);
+}
+
+.form-manager button:hover{
+    background-color: rgb(248, 236, 130);
+    color: black;
+}
+
+.form-manager textarea{
+    height: 100px;
+    width: 30%;
+}
+
+.form-manager textarea:hover{
+    background-color: rgb(248, 236, 130);
+}
+
+table.paleBlueRows {
+    border: 2px solid #0B6FA4  ;
+    width: 100%;
+    height: 10;
+    text-align: center;
+    border-collapse: collapse;
+  }
+
+  table.paleBlueRows td, table.paleBlueRows th {
+    border: 2px solid white  ;
+    padding: 2px 2px;
+  }
+
+  table.paleBlueRows tbody td {
+    font-size: 10px;
+    background-color:#575656;
+    color: white;
+    font-weight: bold;
+    width: auto;
+    height: 20px;
+    padding: 2px;
+  }
+
+  table.paleBlueRows tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+
+  table.paleBlueRows thead {
+    background:#333333;
+    
+  }
+
+  table.paleBlueRows thead th {
+    font-size: 11px;
+    font-weight: bold;
+    color:#f1f7fc;
+    text-align: center;
+    border-left: 2px solid #D0E4F5;
+    border: 2px solid #f1f7fc;
+  }
+
+  table.paleBlueRows thead th:first-child {
+    border-left: none;
+  }
+  
+  table.paleBlueRows tfoot {
+    font-size: 15px;
+    font-weight: bold;
+    color:white;
+    background: #1e87e2;
+    border-top: 3px solid #444444;
+  }
+
+  table.paleBlueRows tfoot td {
+    font-size: 1px;
+  }
+
+  caption {
+      font-weight: bold;
+      font-size: 14px;
+      color: #f1f7fc;
+      background-color: #333333;
+      padding: 4px;
+  }
+
+  
+  
+  

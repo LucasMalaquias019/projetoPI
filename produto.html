@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produto</title>
+    <link href="stiloprodutoPI.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="menu">
+        <a class= "active" href="/produto.html">Produto</a>
+        <a href="cliente.html">
+        <button class="volta" title="Voltar">↩️ Voltar</button>
+        </a>
+    </div>
+    <div class="FormProduto">
+        <form class="formulario">
+        <fieldset>
+         <div class="form-manager">
+        <label>Codigo</label>
+        <input class="input-manager" type="number" size="5" id="codigo" placeholder="Codigo"/>
+    </div>
+
+       <div class="form-manager">
+        <label class="nome">Nome</label>
+        <input class="input-manager" type="text" size="55" id="nome" placeholder="Nome"/>
+    </div>
+
+         <div class="form-manager">
+             <label>Preço custo</label>
+             <input class="precocusto" type="number" size="5" id="precocusto" placeholder="Preço custo"/>
+
+            <label class="right-inline">Lucro %</label>
+            <input class="input-manager" type="number" size="5" id="lucro" placeholder="Lucro %"/>
+
+            <label class="precovenda">Preço de Venda</label>
+            <input class="precovenda" type="number" size="5" id="precovenda" placeholder="Preço de Venda"/>
+         </div>
+
+         <div class="icms">
+         <label>ICMS%</label>
+         <input class="input-manager" type="number" size="5" id="icms" placeholder="ICM%"/>
+
+         <label class="nfe">NCM - NFE</label>
+         <input class="input-manager" type="number" size="7" id="nfe" placeholder="NCM - NFE"/>
+
+         <label class="unidade">Unidade de Medida</label>
+         <select class="unidade" placeholder="UN" id="unidade">
+             <option>1</option>
+             <option>2</option>
+             <option>3</option>
+             <option>4</option>
+             <option>5</option>
+             <option>6</option>
+             <option>7</option>
+             <option>8</option>
+             <option>9</option>
+             <option>10</option>
+         </select>    
+          </div>
+
+          <div class="marca-categ">
+            <label>Marca</label>
+            <select class="marca" id="marca">
+                <option>LENOVO</option>
+                <option>DELL</option>
+                <option>POSITVO</option>
+                <option>HP</option>
+                <option>SAMSUNG</option>
+                <option>LG</option>
+                <option>ACER</option>
+            </select>
+          
+           <label class="categoria">Categoria</label>
+            <select class="categoria" id="categoria">
+                <option>ELETRONICO</option>
+            </select>    
+        </div>
+
+        <div class="origem">
+            <label class="origem">Origem</label>
+            <select class="origem" id="origem">
+                <option>NACIONAL</option>
+                <option>IMPORTADO</option>
+            </select>
+            <label class="codigobarras">Codigo de barras</label>
+            <input class="codigodebarras" type="number" size="5" placeholder="codigo de barras" id="codigobarrasmanu">
+        </div>
+        
+        <div class="botaosalvar">
+            <button  title="salvar" id="salvar">💾 Salvar</button>
+        </div>
+         
+    </fieldset>
+    </form>
+    </div>
+     <div id="listagem"></div>
+    <script src="produtoPI.js"></script>
+</body>
+</html>

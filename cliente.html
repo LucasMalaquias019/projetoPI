@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+    <link href="estiloclientePI.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="menu">
+        <a class="active" href="#">Inicio</a>
+        <a href="produto.html">Produto</a>
+    </div>
+
+
+    <div class="formulario">
+        <form name="frmCliente">
+            <fieldset>
+                <legend>Cadastro de Cliente</legend>
+                <div class="form-manager">
+                    <label for="codigo">Codigo:</label>
+                    <input class="input-manager" type="number" size="5" placeholder="Codigo" id="codigo"/>
+
+                    <label class="right-inline">Nome/Razão Social:</label>
+                    <input class="input-manager" type="text" size="40" placeholder="Nome" id="nome"/>
+
+                    <label class="right-inline">RG/IE:</label>
+                    <input class="input-manager" type="number" size="5" placeholder="RG/IE" id="rg"/>
+                </div>
+
+                <div class="form-manager">
+                    <label>Endereco:</label>
+                    <input class="input-manager" type="text" size="40" placeholder="Endereco" id="endereco"/>
+
+                    <label class="right-inline">Bairro:</label>
+                    <input class="input-manager" type="text" size="15" placeholder="Bairro" id="bairro"/>
+
+                    <label class="right-inline">Cidade:</label>
+                    <input class="input-manager" type="text" size="15" placeholder="Cidade" id="cidade"/>
+                </div>
+
+                <div class="form-manager">
+                    <label>CEP:</label>
+                    <input class="input-manager" type="number" size="5" placeholder="CEP" id="cep"/>
+
+                    <label class="right-inline">UF:</label>
+                    <input class="input-manager" type="text" size="2" placeholder="UF" id="uf"/>
+
+                    <label class="right-inline">Telefone:</label>
+                    <input class="input-manager" type="number" size="5" placeholder="Telefone" id="telefone"/>
+
+                    <label class="right-inline">Celular:</label>
+                    <input class="input-manager" type="number" size="5" placeholder="Celular" id="celular"/>
+
+                    <label class="right-inline">CPF/CNPJ:</label>
+                    <input class="input-manager" type="number" size="5" placeholder="CPF/CNPJ" id="cpf"/>
+                </div>
+
+                <div class="form-manager">
+                    <label>Nome Fantasia:</label>
+                    <input class="input-manager" type="text" size="40" placeholder="Nome Fantasia" id="nomefantasia"/>
+
+                    <label class="right-inline">Contato:</label>
+                    <input class="input-manager" type="number" size="5" placeholder="Contato" id="contato"/>
+
+                    <label class="right-inline">E-mail pessoal:</label>
+                    <input class="input-manager" type="text" size="30" placeholder="Email" id="email"/>
+                    <label class="right-inline">Nascimento:</label>
+                    <input class="input-manager" type="date" size="5" id="nascimento"/>
+                </div>
+
+                <div class="form-manager">
+                    <label id="observacoes">Obsevacoes:</label>
+                    <textarea></textarea>
+                </div>
+
+                <div class="form-manager">
+                    <button id="salvar"> 💾 Salvar</button>
+                    <button id="cancelar">❌ Cancelar</button>
+                    </div>
+
+            </fieldset>
+        </form>
+    </div>
+    <div id="listagem"></div>
+    <script src="clientePI.js"></script>
+</body>
+</html>
